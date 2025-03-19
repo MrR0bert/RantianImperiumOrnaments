@@ -1,0 +1,41 @@
+{
+    "Version": "1.0",
+    "ModID": "mrrobert_rantian_imperium_ornaments",
+    "Category": {
+      "Chinese": null,
+      "English": "Ornaments",
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    "ModName": {
+      "Chinese": null,
+      "English": "Rantian Imperium Ornaments",
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    "Description": {
+      "Chinese": null,
+      "English": "Ornaments from the Rantian Imperium",
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    "CreatorName": "MrR0b3rt"
+  }

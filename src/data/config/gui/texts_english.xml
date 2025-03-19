@@ -1,0 +1,36 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500030000</GUID>
+      <Text>Rantian Imperium Ornaments</Text>
+    </Text>
+    <Text>
+      <GUID>1500030001</GUID>
+      <Text>Collection of Rantian Ornaments</Text>
+    </Text>
+    <Text>
+      <GUID>1500030002</GUID>
+      <Text>Rantian Imperium Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030003</GUID>
+      <Text>A banner with the Rantian logo</Text>
+    </Text>
+    <Text>
+      <GUID>1500030004</GUID>
+      <Text>Rantian Naval Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030005</GUID>
+      <Text>The symbol of Rantian Imperium navel power</Text>
+    </Text>
+    <Text>
+      <GUID>1500030006</GUID>
+      <Text>Rantian Air Force</Text>
+    </Text>
+    <Text>
+      <GUID>1500030007</GUID>
+      <Text>A bright start in the sky</Text>
+    </Text>
+  </ModOp>
+</ModOps>
