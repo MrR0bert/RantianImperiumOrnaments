@@ -9,6 +9,7 @@ All notable changes to this project will be documented in this file.
 - Added a new Rantian Imperium Banner
 - Added a Rantian Imperium Land of Lions Banner
 - Added the Republic of New Albion Banner banner
+- Added support for the New World region and Enbesa
 
 ### Changed
 

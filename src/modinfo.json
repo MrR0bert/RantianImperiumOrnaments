@@ -37,5 +37,11 @@
       "Spanish": null,
       "Taiwanese": null
     },
+    "DLCDependencies": [
+      {
+        "DLC": "LandOfLions",
+        "Dependant": "partly"
+      }
+    ],
     "CreatorName": "MrR0b3rt"
   }
