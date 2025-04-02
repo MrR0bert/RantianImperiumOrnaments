@@ -28,6 +28,15 @@
             <Item>
               <Building>1500030006</Building>
             </Item>
+            <Item>
+              <Building>1500030008</Building>
+            </Item>
+            <Item>
+              <Building>1500030010</Building>
+            </Item>
+            <Item>
+              <Building>1500030012</Building>
+            </Item>
           </BuildingList>
           <CategoryDescription>1500030001</CategoryDescription>
         </ConstructionCategory>
@@ -48,20 +57,20 @@
   </ModOp>
   <!-- END ADD CONSTRUCTION CATEGORY -->
 
-  <!-- START RANTIAN IMPERIUM BANNER -->
+  <!-- START RANTIAN LOGO BANNER -->
   <ModOp Type="addNextSibling" GUID="103115">
     <Asset>
       <Template>OrnamentalBuilding</Template>
       <Values>
         <Standard>
           <GUID>1500030002</GUID>
-          <Name>Rantian Imperium Banner</Name>
+          <Name>Rantian Logo Banner</Name>
           <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Rantian Imperium Banner</Text>
+              <Text>Rantian Logo Banner</Text>
               <Status>Exported</Status>
               <ExportCount>1</ExportCount>
             </English>
@@ -84,15 +93,12 @@
             </Item>
             <Item>
               <Ingredient>1010196</Ingredient>
-              <Amount>5</Amount>
             </Item>
             <Item>
               <Ingredient>1010205</Ingredient>
-              <Amount>2</Amount>
             </Item>
             <Item>
               <Ingredient>1010218</Ingredient>
-              <Amount>1</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -193,7 +199,7 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- END RANTIAN IMPERIUM BANNER -->
+  <!-- END RANTIAN LOGO BANNER -->
 
   <!-- START ADD RANTIAN NAVAL BANNER -->
   <ModOp Type="addNextSibling" GUID="103115">
@@ -231,15 +237,12 @@
             </Item>
             <Item>
               <Ingredient>1010196</Ingredient>
-              <Amount>5</Amount>
             </Item>
             <Item>
               <Ingredient>1010205</Ingredient>
-              <Amount>2</Amount>
             </Item>
             <Item>
               <Ingredient>1010218</Ingredient>
-              <Amount>1</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -378,15 +381,12 @@
             </Item>
             <Item>
               <Ingredient>1010196</Ingredient>
-              <Amount>5</Amount>
             </Item>
             <Item>
               <Ingredient>1010205</Ingredient>
-              <Amount>2</Amount>
             </Item>
             <Item>
               <Ingredient>1010218</Ingredient>
-              <Amount>1</Amount>
             </Item>
           </Costs>
         </Cost>
@@ -488,4 +488,436 @@
     </Asset>
   </ModOp>
   <!-- END ADD RANIAN AIRFORCE BANNER -->
+
+  <!-- START RANTIAN IMPERIUM BANNER -->
+  <ModOp Type="addNextSibling" GUID="103115">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1500030008</GUID>
+          <Name>Rantian Imperium Banner</Name>
+          <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Rantian Imperium Banner</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>36403</LineID>
+        </Text>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_04.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Ornament>
+          <PlazzaSize>1</PlazzaSize>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>1500030009</OrnamentDescription>
+        </Ornament>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END RANTIAN IMPERIUM BANNER -->
+
+  <!-- START RANTIAN IMPERIUM LAND OF LIONS BANNER -->
+  <ModOp Type="addNextSibling" GUID="103115">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1500030010</GUID>
+          <Name>Rantian Imperium Land of Lions Banner</Name>
+          <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Rantian Imperium Land of Lions Banner</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>36403</LineID>
+        </Text>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_05.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Ornament>
+          <PlazzaSize>1</PlazzaSize>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>1500030011</OrnamentDescription>
+        </Ornament>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END RANTIAN IMPERIUM LAND OF LIONS BANNER -->
+
+  <!-- START REPUBLIC OF NEW ALBION BANNER -->
+  <ModOp Type="addNextSibling" GUID="103115">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1500030012</GUID>
+          <Name>Republic of New Albion Banner</Name>
+          <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Republic of New Albion Banner</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>36403</LineID>
+        </Text>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_rep_of_new_albion_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Ornament>
+          <PlazzaSize>1</PlazzaSize>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>1500030013</OrnamentDescription>
+        </Ornament>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END REPUBLIC OF NEW ALBION BANNER -->
  </ModOps>

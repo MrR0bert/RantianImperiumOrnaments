@@ -10,7 +10,7 @@
     </Text>
     <Text>
       <GUID>1500030002</GUID>
-      <Text>Rantian Imperium Banner</Text>
+      <Text>Rantian Logo Banner</Text>
     </Text>
     <Text>
       <GUID>1500030003</GUID>
@@ -31,6 +31,30 @@
     <Text>
       <GUID>1500030007</GUID>
       <Text>A bright start in the sky</Text>
+    </Text>
+    <Text>
+      <GUID>1500030008</GUID>
+      <Text>Rantian Imperium Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030009</GUID>
+      <Text>A official Rantium Imperium banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030010</GUID>
+      <Text>Rantian Imperium Land of Lions Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030011</GUID>
+      <Text>Rantium Imperium banner with the Enbesa lion</Text>
+    </Text>
+    <Text>
+      <GUID>1500030012</GUID>
+      <Text>Republic of New Albion Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030013</GUID>
+      <Text>The official banner for the Republic of New Albion</Text>
     </Text>
   </ModOp>
 </ModOps>
