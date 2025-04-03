@@ -15,6 +15,10 @@ All notable changes to this project will be documented in this file.
 
 - Renamed original 'Rantian Imperium Banner' to 'Rantian Logo Banner'
 
+### Fixed
+
+- Cloths of several banners not aligning with the model, so they look good again
+
 ## [1.0] - 2025-03-19
 
 ### Added
