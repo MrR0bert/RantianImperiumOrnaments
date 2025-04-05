@@ -53,6 +53,9 @@
             <Item>
               <Building>1500030012</Building>
             </Item>
+            <Item>
+              <Building>1500030016</Building>
+            </Item>
           </BuildingList>
           <CategoryDescription>1500030001</CategoryDescription>
         </ConstructionCategory>
@@ -936,4 +939,226 @@
     </Asset>
   </ModOp>
   <!-- END REPUBLIC OF NEW ALBION BANNER -->
+
+  <!-- START TEST OPS WITH BANNER RANGE -->
+  
+  <!--
+    Requires:
+      - Product (BannerNeed)
+      - Add Product to Farmer tier population input (copy from pub)
+      - A public service building that provides the hapiness
+  -->
+
+  <!-- START ADD PRODUCT -->
+  <ModOp Type="addNextSibling" GUID="1010349">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500030014</GUID>
+          <Name>Banner_Happiness</Name>
+          <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Banner Happiness</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>5327</LineID>
+        </Text>
+        <Locked/>
+        <Product>
+          <ProductColor>-11415604</ProductColor>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11709</ProductCategory>
+          <!--Product Category Public Happiness-->
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+        </Product>
+        <ExpeditionAttribute/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD PRODUCT -->
+
+  <!-- ADD PRODUCT AS NEED -->
+  <ModOp Type="addNextSibling" GUID='15000000' Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010349']">
+    <Item>
+      <Product>1500030014</Product>
+      <!--banners-->
+      <HappinessValue>25</HappinessValue>
+      <MoneyValue>0</MoneyValue>
+      <FullWeightPopulationCount>1</FullWeightPopulationCount>
+      <NoWeightPopulationCount>149</NoWeightPopulationCount>
+      <IsConsideredByAI>1</IsConsideredByAI>
+    </Item>
+  </ModOp>
+  <!-- END ADD PRODUCT AS NEED -->
+
+  <!-- START BANNER NEED PROVIDER-->
+  <ModOp Type="addNextSibling" GUID="1010358">
+    <Asset>
+      <Template>PublicServiceBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1500030016</GUID>
+          <Name>banner_service</Name>
+          <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking/>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <!--Money-->
+              <Amount>500</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_rep_of_new_albion_01.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1010364</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <!--ChangeBuildingSkin_toDefaultSkinDesc-->
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <!--Classic-->
+          </Skins>
+        </Object>
+        <Mesh/>
+        <Selection>
+          <GUIType>PublicService</GUIType>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>!!Banners as a Need</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>5295</LineID>
+        </Text>
+        <Constructable/>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200859</Sound>
+              <!--wwe_sfx_bld_service_09_lp-->
+            </Item>
+          </ActiveSounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>PublicServiceBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Sound>214786</Sound>
+                <!--wwe_sfx_aui_bld_place_public-->
+              </Item>
+            </BuildSuccessful>
+          </ConstructionSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+                <!--wwe_sfx_bld_inc_burn-->
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+              <!--wwe_sfx_aui_bld_3d_renovate-->
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
+        <Infolayer/>
+        <UpgradeList/>
+        <LogisticNode>
+          <REMOVE_THIS_LATER_FeedbackUnitTier>Level4</REMOVE_THIS_LATER_FeedbackUnitTier>
+        </LogisticNode>
+        <PublicService>
+          <FullSatisfactionDistance>300</FullSatisfactionDistance>
+          <NoSatisfactionDistance>320</NoSatisfactionDistance>
+          <PublicServiceOutputs>
+            <Item>
+              <Product>1500030014</Product>
+              <!--Banner_Happiness-->
+            </Item>
+          </PublicServiceOutputs>
+        </PublicService>
+        <AmbientMoodProvider>
+          <AmbientMood>ResidenceTier1</AmbientMood>
+          <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <!--Money-->
+              <Amount>350</Amount>
+              <InactiveAmount>175</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>3500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable/>
+        <IncidentInfectable>
+          <Infectable>
+            <Fire>
+              <Base>1</Base>
+            </Fire>
+          </Infectable>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+            </Fire>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Culture/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END BANNER NEED PROVIDER -->
+
+  <!-- ADD BUILDING TO CONSTRUCTION MENU moderate construction menu 1 (tier) [GUID: 25000189] -->
+  <ModOp Type="addNextSibling" GUID='25000189' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010358']">
+    <Item>
+      <Building>1500030016</Building>
+    </Item>
+  </ModOp>
+  <!-- END ADD BUILDING TO CONSTRUCTION MENU-->
+  <!-- END TEST WITH BANNER RANGE -->
  </ModOps>

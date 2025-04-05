@@ -56,5 +56,13 @@
       <GUID>1500030013</GUID>
       <Text>The official banner for the Republic of New Albion</Text>
     </Text>
+    <Text>
+      <GUID>1500030014</GUID>
+      <Text>Banner Happiness</Text>
+    </Text>
+    <Text>
+      <GUID>1500030015</GUID>
+      <Text>Banner Happiness Provider</Text>
+    </Text>
   </ModOp>
 </ModOps>
