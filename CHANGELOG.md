@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2] - 2025-04-07
+
+### Added
+
+- Added 'New World Customs Union' banner
+- Added 'New Albion Civilian Banner'
+- Added 'Zandros Banner'
+- Added a cobblestone base **variation** to all banners (requires Old Town pack)
+
+### Changed
+
+- Renamed 'New Albion Banner' to 'New Albion Military Banner'
+
 ## [1.1] - 2025-04-02
 
 ### Added

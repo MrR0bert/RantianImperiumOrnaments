@@ -50,11 +50,35 @@
     </Text>
     <Text>
       <GUID>1500030012</GUID>
-      <Text>Republic of New Albion Banner</Text>
+      <Text>Republic of New Albion Military Banner</Text>
     </Text>
     <Text>
       <GUID>1500030013</GUID>
-      <Text>The official banner for the Republic of New Albion</Text>
+      <Text>The military banner for the Republic of New Albion</Text>
+    </Text>
+    <Text>
+      <GUID>1500030014</GUID>
+      <Text>Republic of New Albion Civilian Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030015</GUID>
+      <Text>The civilian banner for the Republic of New Albion</Text>
+    </Text>
+    <Text>
+      <GUID>1500030016</GUID>
+      <Text>New World Customs Union Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030017</GUID>
+      <Text>The offical banner for the NWCU</Text>
+    </Text>
+    <Text>
+      <GUID>1500030018</GUID>
+      <Text>Zandros Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030019</GUID>
+      <Text>The offical banner for Zandros</Text>
     </Text>
   </ModOp>
 </ModOps>

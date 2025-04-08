@@ -53,6 +53,15 @@
             <Item>
               <Building>1500030012</Building>
             </Item>
+            <Item>
+              <Building>1500030014</Building>
+            </Item>
+            <Item>
+              <Building>1500030016</Building>
+            </Item>
+            <Item>
+              <Building>1500030018</Building>
+            </Item>
           </BuildingList>
           <CategoryDescription>1500030001</CategoryDescription>
         </ConstructionCategory>
@@ -127,6 +136,9 @@
           <Variations>
             <Item>
               <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_cobble_large_01.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -272,6 +284,9 @@
             <Item>
               <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_02.cfg</Filename>
             </Item>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_cobble_large_02.cfg</Filename>
+            </Item>
           </Variations>
         </Object>
         <Constructable />
@@ -415,6 +430,9 @@
           <Variations>
             <Item>
               <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_cobble_large_03.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -560,6 +578,9 @@
             <Item>
               <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_04.cfg</Filename>
             </Item>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_cobble_large_04.cfg</Filename>
+            </Item>
           </Variations>
         </Object>
         <Constructable />
@@ -704,6 +725,9 @@
             <Item>
               <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_05.cfg</Filename>
             </Item>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_cobble_large_05.cfg</Filename>
+            </Item>
           </Variations>
         </Object>
         <Constructable />
@@ -793,20 +817,20 @@
   </ModOp>
   <!-- END RANTIAN IMPERIUM LAND OF LIONS BANNER -->
 
-  <!-- START REPUBLIC OF NEW ALBION BANNER -->
+  <!-- START REPUBLIC OF NEW ALBION MILITARY BANNER -->
   <ModOp Type="addNextSibling" GUID="103115">
     <Asset>
       <Template>OrnamentalBuilding</Template>
       <Values>
         <Standard>
           <GUID>1500030012</GUID>
-          <Name>Republic of New Albion Banner</Name>
+          <Name>Republic of New Albion Military Banner</Name>
           <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
         </Standard>
         <Text>
           <LocaText>
             <English>
-              <Text>Republic of New Albion Banner</Text>
+              <Text>Republic of New Albion Military Banner</Text>
               <Status>Exported</Status>
               <ExportCount>1</ExportCount>
             </English>
@@ -847,6 +871,9 @@
           <Variations>
             <Item>
               <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_rep_of_new_albion_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_rep_of_new_albion_cobble_01.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -935,5 +962,446 @@
       </Values>
     </Asset>
   </ModOp>
-  <!-- END REPUBLIC OF NEW ALBION BANNER -->
+  <!-- END REPUBLIC OF NEW ALBION MILITARY BANNER -->
+
+  <!-- START REPUBLIC OF NEW ALBION CIVILIAN BANNER -->
+  <ModOp Type="addNextSibling" GUID="103115">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1500030014</GUID>
+          <Name>Republic of New Albion Civilian Banner</Name>
+          <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Republic of New Albion Civilian Banner</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>36403</LineID>
+        </Text>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_rep_of_new_albion_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_rep_of_new_albion_cobble_02.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Ornament>
+          <PlazzaSize>1</PlazzaSize>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>1500030015</OrnamentDescription>
+        </Ornament>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END REPUBLIC OF NEW ALBION CIVILIAN BANNER -->
+
+  <!-- START REPUBLIC OF NWCU BANNER -->
+  <ModOp Type="addNextSibling" GUID="103115">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1500030016</GUID>
+          <Name>NWCU Civilian Banner</Name>
+          <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>New World Customs Union Banner</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>36403</LineID>
+        </Text>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_nwcu_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_nwcu_cobble_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Ornament>
+          <PlazzaSize>1</PlazzaSize>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>1500030017</OrnamentDescription>
+        </Ornament>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END REPUBLIC OF NWCU BANNER -->
+
+   <!-- START REPUBLIC OF ZANDROS BANNER -->
+  <ModOp Type="addNextSibling" GUID="103115">
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1500030018</GUID>
+          <Name>Zandros Banner</Name>
+          <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Zandros Banner</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>36403</LineID>
+        </Text>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>11149</BuildingCategoryName>
+          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_zandros_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_zandros_cobble_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </DestroySounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+              <Item>
+                <Sound>9818759</Sound>
+              </Item>
+            </BuildSuccessful>
+            <BuildFailed>
+              <Item>
+                <Sound>9818387</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </BuildFailed>
+            <BuildMoveStart>
+              <Item>
+                <Sound>9818755</Sound>
+              </Item>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>OrnamentalBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+              </Item>
+            </BuildMoveStart>
+          </ConstructionSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Ornament>
+          <PlazzaSize>1</PlazzaSize>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>1500030019</OrnamentDescription>
+        </Ornament>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END REPUBLIC OF ZANDROS BANNER -->
  </ModOps>
