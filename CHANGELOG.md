@@ -12,7 +12,6 @@ All notable changes to this project will be documented in this file.
 - Added the Belfort banner
 - Added the Karlswache banner
 
-
 ## [1.2] - 2025-04-07
 
 ### Added
