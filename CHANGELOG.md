@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3] - TBD
+
+### Added
+
+- Added two Albahan banners (including cobble base variant)
+- Added four new Kingdom of Sapin banners (including cobble base variant)
+- Added the Belfort banner
+
 ## [1.2] - 2025-04-07
 
 ### Added

@@ -80,5 +80,57 @@
       <GUID>1500030019</GUID>
       <Text>The offical banner for Zandros</Text>
     </Text>
+    <Text>
+      <GUID>1500030020</GUID>
+      <Text>Albahan Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030021</GUID>
+      <Text>The offical banners for Albahan</Text>
+    </Text>
+    <Text>
+      <GUID>1500030022</GUID>
+      <Text>Albahan Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030023</GUID>
+      <Text>Official Kingdom of Sapin Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030024</GUID>
+      <Text>The official Kingdom of Sapin Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030025</GUID>
+      <Text>Kingdom of Sapin Banner fish</Text>
+    </Text>
+    <Text>
+      <GUID>1500030026</GUID>
+      <Text>The Kingdom of Sapin banner with fishes</Text>
+    </Text>
+    <Text>
+      <GUID>1500030027</GUID>
+      <Text>Kingdom of Sapin Banner shield</Text>
+    </Text>
+    <Text>
+      <GUID>1500030028</GUID>
+      <Text>The Kingdom of Sapin banner with a shield</Text>
+    </Text>
+    <Text>
+      <GUID>1500030029</GUID>
+      <Text>The Kingdom of Sapin Banner steampunk</Text>
+    </Text>
+    <Text>
+      <GUID>1500030030</GUID>
+      <Text>A steampunk version of the Kingdom of Sapin banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030031</GUID>
+      <Text>The Official banner of Belfort</Text>
+    </Text>
+    <Text>
+      <GUID>1500030032</GUID>
+      <Text>The Official banner of Belfort</Text>
+    </Text>
   </ModOp>
 </ModOps>
