@@ -2,14 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.3] - TBD
+## [1.3] - 2025-04-16
 
 ### Added
 
+- Added the Rantian Symbol as a PLAYER LOGO!
 - Added two Albahan banners (including cobble base variant)
 - Added four new Kingdom of Sapin banners (including cobble base variant)
 - Added the Belfort banner
-- Added the Rantian Symbol as a PLAYER LOGO!
+- Added the Karlswache banner
+
 
 ## [1.2] - 2025-04-07
 
