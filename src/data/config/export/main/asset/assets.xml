@@ -1,4 +1,34 @@
 <ModOps>
+  <!-- START ADD RANTIAN SYMBOL PLAY LOGO -->
+  <ModOp GUID="92" Type="addNextSibling">
+  	<Asset>
+	      <Template>PlayerLogo</Template>
+	      <Values>
+	          <Standard>
+	              <GUID>1500030033</GUID>
+	              <Name>rantian_symbol_logo</Name>
+	              <IconFilename>data/ui/logos/large/mrr0b3rt_rantian_symbol_logo.png</IconFilename>
+	          </Standard>
+	          <PlayerLogo>
+	              <DefaultLogo>data/ui/logos/large/mrr0b3rt_rantian_symbol_logo.png</DefaultLogo>
+	              <MiniLogo>data/ui/logos/small/mrr0b3rt_rantian_symbol_logo.png</MiniLogo>
+	          </PlayerLogo>
+	          <Locked>
+	              <DefaultLockedState>0</DefaultLockedState>
+	          </Locked>
+	      </Values>
+    </Asset>
+    <!-- END ADD RANTIAN SYMBOL PLAY LOGO -->    
+  </ModOp>
+
+  <!-- START ADD CUSTOM LOGOS TO THE GAME -->
+  <ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+      <Item>
+          <Logo>1500030033</Logo>
+      </Item>
+  </ModOp>
+  <!-- END ADD CUSTOM LOGOS TO THE GAME -->
+
   <!-- START ADD TO OLD WORLD BEAUTIFICATION MENU ConstructionCategory - Moderate Ornament Menu Vanilla & Free Updates [GUID: 500069] --> 
   <ModOp Type="addNextSibling" GUID='500069' Path="/Values/ConstructionCategory/BuildingList/Item[Building='501485']">
     <Item>
