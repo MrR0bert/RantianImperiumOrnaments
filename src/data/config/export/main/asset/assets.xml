@@ -116,6 +116,9 @@
             <Item>
               <Building>1500030034</Building>
             </Item>
+            <Item>
+              <Building>1500030036</Building>
+            </Item>
           </BuildingList>
           <CategoryDescription>1500030001</CategoryDescription>
         </ConstructionCategory>
@@ -2562,4 +2565,170 @@
     </Asset>
   </ModOp>
   <!-- END KARLSWACHE BANNER 01 -->
+
+  <!-- START ADD HARBOUR BANNER 01 -->
+  <ModOp Type="addNextSibling" GUID="103115">
+    <Asset>
+      <Template>HarborOrnament</Template>
+      <Values>
+        <Standard>
+          <GUID>1500030036</GUID>
+          <Name>rantian_harbour_banner_01</Name>
+          <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
+          <InfoDescription>132438</InfoDescription>
+          <!--Ornament Docklands Buildmenu Text-->
+        </Standard>
+        <Building>
+          <BuildingCategoryName>5942</BuildingCategoryName>
+          <!--Docklands Category Name-->
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking/>
+        <Mesh/>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/ornamental/harbour_banners/rantian_banners_harbour.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <AmbientMoodProvider/>
+        <Constructable/>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Rantian Harbour Banner</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>48585</LineID>
+        </Text>
+        <Cost>
+          <Costs>
+            <Item>
+              <VectorElement>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Ingredient>1010017</Ingredient>
+              <!--Money-->
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>1</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>1</Index>
+                  </Entry>
+                  <Entry>
+                    <TemplateName>HarborOrnament</TemplateName>
+                    <Index>1</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>2</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>2</Index>
+                  </Entry>
+                  <Entry>
+                    <TemplateName>HarborOrnament</TemplateName>
+                    <Index>2</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>3</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>3</Index>
+                  </Entry>
+                  <Entry>
+                    <TemplateName>HarborOrnament</TemplateName>
+                    <Index>3</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>4</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>4</Index>
+                  </Entry>
+                  <Entry>
+                    <TemplateName>HarborOrnament</TemplateName>
+                    <Index>4</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>5</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>5</Index>
+                  </Entry>
+                  <Entry>
+                    <TemplateName>HarborOrnament</TemplateName>
+                    <Index>5</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </Costs>
+        </Cost>
+        <Attackable>
+          <AttackableType>HarbourBuilding</AttackableType>
+        </Attackable>
+        <Infolayer/>
+        <Maintenance/>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Ornament>
+          <PlazzaSize>0</PlazzaSize>
+          <OrnamentUnit>4</OrnamentUnit>
+          <OrnamentDescription>1500030037</OrnamentDescription>
+          <!--Ornament DockLLighthouse01 fluff-->
+        </Ornament>
+        <FeedbackController/>
+        <SoundEmitter>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+              <!--wwe_sfx_aui_delete-->
+            </Item>
+          </DestroySounds>
+        </SoundEmitter>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD HARBOUR BANNER 01 -->
 </ModOps>

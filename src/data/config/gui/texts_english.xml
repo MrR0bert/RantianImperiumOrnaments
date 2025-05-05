@@ -144,5 +144,13 @@
       <GUID>1500030035</GUID>
       <Text>The Official banner for the island of Karlswache/Text</Text>
     </Text>
+    <Text>
+      <GUID>1500030036</GUID>
+      <Text>Official Rantian Harbour Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030037</GUID>
+      <Text>The first official harbour banner for the Rantian Empire</Text>
+    </Text>
   </ModOp>
 </ModOps>
