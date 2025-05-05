@@ -142,7 +142,16 @@
     </Text>
     <Text>
       <GUID>1500030035</GUID>
-      <Text>The Official banner for the island of Karlswache/Text</Text>
+      <Text>The Official banner for the island of Karlswache</Text>
     </Text>
+    <Text>
+      <GUID>1500030036</GUID>
+      <Text>Principality of Guivre</Text>
+    </Text>
+    <Text>
+      <GUID>1500030037</GUID>
+      <Text>The Official banner for the Principality of Guivre</Text>
+    </Text>
+    
   </ModOp>
 </ModOps>
