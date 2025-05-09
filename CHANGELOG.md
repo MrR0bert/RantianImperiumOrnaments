@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
 - Updated banner map for Republic of Albion to new design
+- Updated banner map for the Kingdom of Sapin shield banner
 
 ## [1.3.1] - 2025-05-05
 
