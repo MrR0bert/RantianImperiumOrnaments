@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.2] - Unreleased
+
+### Added
+
+- Added the Phantom Circus Brigade banner
+
+### Changed
+
+- Updated banner map for Republic of Albion to new design
+
+## [1.3.1] - 2025-05-05
+
+### Added
+
+- Added Principalty of Guivre banner
+
 ## [1.3] - 2025-04-16
 
 ### Added
