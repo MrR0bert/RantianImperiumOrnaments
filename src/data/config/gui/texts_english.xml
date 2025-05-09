@@ -152,6 +152,13 @@
       <GUID>1500030037</GUID>
       <Text>The Official banner for the Principality of Guivre</Text>
     </Text>
-    
+    <Text>
+      <GUID>1500030038</GUID>
+      <Text>Phanton Circus Brigade</Text>
+    </Text>
+    <Text>
+      <GUID>1500030039</GUID>
+      <Text>The Official banner for the Phanton Circus Brigade</Text>
+    </Text>
   </ModOp>
 </ModOps>
