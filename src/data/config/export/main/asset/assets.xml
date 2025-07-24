@@ -53,6 +53,14 @@
   </ModOp>
   <!-- END ADD TO ENBESA TIER 1 MENU -->
 
+    <!-- START ADD TO Asia City MENU ConstructionCategory - Asia City [GUID: 1445627] --> 
+  <ModOp Type="addNextSibling" GUID='1445627' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1445634']">
+    <Item>
+      <Building>1500030000</Building>
+    </Item>
+  </ModOp>
+  <!-- END ADD TO Asia City MENU -->
+
   <!-- START ADD CONTRUCTION CATEGORY -->
   <ModOp Type="addNextSibling" GUID="501485">
     <Asset>
@@ -168,7 +176,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -315,7 +323,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -462,7 +470,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -609,7 +617,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -756,7 +764,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -903,7 +911,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -1050,7 +1058,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -1197,7 +1205,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -1344,7 +1352,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -1491,7 +1499,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -1629,7 +1637,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -1767,7 +1775,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -1905,7 +1913,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -2043,7 +2051,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -2181,7 +2189,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -2319,7 +2327,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -2457,7 +2465,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -2595,7 +2603,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
@@ -2733,7 +2741,7 @@
         </Blocking>
         <Building>
           <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa</AssociatedRegions>
+          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
         </Building>
         <Cost>
           <Costs>
