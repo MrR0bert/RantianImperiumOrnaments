@@ -1,0 +1,23 @@
+<ModOps>
+    <!-- START ADD RANTIAN SYMBOL PLAY LOGO -->
+  <ModOp GUID="92" Type="addNextSibling">
+  	<Asset>
+	      <Template>PlayerLogo</Template>
+	      <Values>
+	          <Standard>
+	              <GUID>1500030033</GUID>
+	              <Name>rantian_symbol_logo</Name>
+	              <IconFilename>data/ui/logos/large/mrr0b3rt_rantian_symbol_logo.png</IconFilename>
+	          </Standard>
+	          <PlayerLogo>
+	              <DefaultLogo>data/ui/logos/large/mrr0b3rt_rantian_symbol_logo.png</DefaultLogo>
+	              <MiniLogo>data/ui/logos/small/mrr0b3rt_rantian_symbol_logo.png</MiniLogo>
+	          </PlayerLogo>
+	          <Locked>
+	              <DefaultLockedState>0</DefaultLockedState>
+	          </Locked>
+	      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD RANTIAN SYMBOL PLAY LOGO -->    
+</ModOps>

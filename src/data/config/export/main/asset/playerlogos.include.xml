@@ -1,0 +1,12 @@
+<ModOps>
+    <!-- Include the Rantian Imperium player logo -->
+    <Include File=".\logos\rantianimperium.include.xml" />
+
+    <!-- START ADD CUSTOM LOGOS TO THE GAME -->
+    <ModOp Type="add" GUID="500769" Path="/Values/CreateGameScene/Logos">
+        <Item>
+            <Logo>1500030033</Logo>
+        </Item>
+    </ModOp>
+    <!-- END ADD CUSTOM LOGOS TO THE GAME -->
+</ModOps>

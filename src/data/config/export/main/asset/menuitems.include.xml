@@ -1,0 +1,33 @@
+<ModOps>
+    <!-- START ADD TO OLD WORLD BEAUTIFICATION MENU ConstructionCategory - Moderate Ornament Menu Vanilla & Free Updates [GUID: 500069] --> 
+    <ModOp Type="addNextSibling" GUID='500069' Path="/Values/ConstructionCategory/BuildingList/Item[Building='501485']">
+        <Item>
+            <Building>1500030000</Building>
+        </Item>
+    </ModOp>
+    <!-- END ADD TO OLD WORLD BEAUTIFICATION MENU -->
+
+    <!-- START ADD TO NEW WORLD BEAUTIFICATION MENU ConstructionCategory - SA Ornament Menu Vanilla & Free Updates [GUID: 500079] --> 
+    <ModOp Type="addNextSibling" GUID='500079' Path="/Values/ConstructionCategory/BuildingList/Item[Building='501695']">
+        <Item>
+            <Building>1500030000</Building>
+        </Item>
+    </ModOp>
+    <!-- END ADD TO NEW WORLD BEAUTIFICATION MENU -->
+
+    <!-- START ADD TO ENBESA TIER 1 MENU ConstructionCategory - africa construction menu 1 (tier) [GUID: 114553] --> 
+    <ModOp Type="addNextSibling" GUID='114553' Path="/Values/ConstructionCategory/BuildingList/Item[Building='134879']">
+        <Item>
+            <Building>1500030000</Building>
+        </Item>
+    </ModOp>
+    <!-- END ADD TO ENBESA TIER 1 MENU -->
+
+    <!-- START ADD TO Asia City MENU ConstructionCategory - Asia City [GUID: 1445627] --> 
+    <ModOp Type="addNextSibling" GUID='1445627' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1445634']">
+        <Item>
+            <Building>1500030000</Building>
+        </Item>
+    </ModOp>
+    <!-- END ADD TO Asia City MENU -->
+</ModOps>
