@@ -160,5 +160,29 @@
       <GUID>1500030039</GUID>
       <Text>The Official banner for the Phanton Circus Brigade</Text>
     </Text>
+    <Text>
+      <GUID>1500030040</GUID>
+      <Text>La Corona</Text>
+    </Text>
+    <Text>
+      <GUID>1500030041</GUID>
+      <Text>The Official banner for La Corona</Text>
+    </Text>
+    <Text>
+      <GUID>1500030042</GUID>
+      <Text>Eternal Sun Trading Company</Text>
+    </Text>
+    <Text>
+      <GUID>1500030043</GUID>
+      <Text>The Official banner for the Eternal Sun Trading Company</Text>
+    </Text>
+    <Text>
+      <GUID>1500030044</GUID>
+      <Text>Flame Squadron</Text>
+    </Text>
+    <Text>
+      <GUID>1500030045</GUID>
+      <Text>The Official banner for the Flame Squadron</Text>
+    </Text>
   </ModOp>
 </ModOps>
