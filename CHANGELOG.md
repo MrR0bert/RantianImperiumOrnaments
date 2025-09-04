@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.4] - 2025-09-04
+
+- Added La Corona banner
+- Added Flame Squadron banner
+- Added Eternal Sun banner
+
 ## [1.3.3] - 2025-06-23
 
 ### Added
