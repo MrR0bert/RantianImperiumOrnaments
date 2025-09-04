@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.5] - 2025-09-04
+
+- Added the Union of Albion banner
+
 ## [1.3.4] - 2025-09-04
 
 - Added La Corona banner

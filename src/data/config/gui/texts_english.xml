@@ -184,5 +184,13 @@
       <GUID>1500030045</GUID>
       <Text>The Official banner for the Flame Squadron</Text>
     </Text>
+    <Text>
+      <GUID>1500030046</GUID>
+      <Text>Union of Albion</Text>
+    </Text>
+    <Text>
+      <GUID>1500030047</GUID>
+      <Text>The Official banner for the Union of Albion</Text>
+    </Text>
   </ModOp>
 </ModOps>
