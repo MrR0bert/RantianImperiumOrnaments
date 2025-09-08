@@ -192,5 +192,13 @@
       <GUID>1500030047</GUID>
       <Text>The Official banner for the Union of Albion</Text>
     </Text>
+    <Text>
+      <GUID>2001000000</GUID>
+      <Text>Rantium Harbour Test Banner</Text>
+    </Text>
+    <Text>
+      <GUID>2001000001</GUID>
+      <Text>A test banner for the harbour area</Text>
+    </Text>
   </ModOp>
 </ModOps>
