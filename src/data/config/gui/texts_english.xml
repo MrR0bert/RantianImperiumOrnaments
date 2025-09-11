@@ -1,6 +1,6 @@
-<ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
+    <ModOps>
+        <ModOp Type="add" Path="/TextExport/Texts">
+                <Text>
       <GUID>1500030000</GUID>
       <Text>Rantian Imperium Ornaments</Text>
     </Text>
@@ -30,7 +30,7 @@
     </Text>
     <Text>
       <GUID>1500030007</GUID>
-      <Text>A bright start in the sky</Text>
+      <Text>A bright star in the sky</Text>
     </Text>
     <Text>
       <GUID>1500030008</GUID>
@@ -192,5 +192,193 @@
       <GUID>1500030047</GUID>
       <Text>The Official banner for the Union of Albion</Text>
     </Text>
-  </ModOp>
-</ModOps>
+    <Text>
+      <GUID>1500030048</GUID>
+      <Text>Rantian Imperium Harbour Ornaments</Text>
+    </Text>
+    <Text>
+      <GUID>1500030049</GUID>
+      <Text>Collection of Rantian Ornaments specifically for the harbour area</Text>
+    </Text>
+    <Text>
+      <GUID>1500030050</GUID>
+      <Text>Rantian Logo Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030051</GUID>
+      <Text>A banner with the Rantian logo</Text>
+    </Text>
+    <Text>
+      <GUID>1500030052</GUID>
+      <Text>Rantian Naval Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030053</GUID>
+      <Text>The symbol of Rantian Imperium navel power</Text>
+    </Text>
+    <Text>
+      <GUID>1500030054</GUID>
+      <Text>Rantian Air Force</Text>
+    </Text>
+    <Text>
+      <GUID>1500030055</GUID>
+      <Text>A bright star in the sky</Text>
+    </Text>
+    <Text>
+      <GUID>1500030056</GUID>
+      <Text>Rantian Imperium Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030057</GUID>
+      <Text>A official Rantium Imperium banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030058</GUID>
+      <Text>Rantian Imperium Land of Lions Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030059</GUID>
+      <Text>Rantium Imperium banner with the Enbesa lion</Text>
+    </Text>
+    <Text>
+      <GUID>1500030060</GUID>
+      <Text>Republic of New Albion Military Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030061</GUID>
+      <Text>The military banner for the Republic of New Albion</Text>
+    </Text>
+    <Text>
+      <GUID>1500030062</GUID>
+      <Text>Republic of New Albion Civilian Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030063</GUID>
+      <Text>The civilian banner for the Republic of New Albion</Text>
+    </Text>
+    <Text>
+      <GUID>1500030064</GUID>
+      <Text>New World Customs Union Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030065</GUID>
+      <Text>The offical banner for the NWCU</Text>
+    </Text>
+    <Text>
+      <GUID>1500030066</GUID>
+      <Text>Zandros Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030067</GUID>
+      <Text>The offical banner for Zandros</Text>
+    </Text>
+    <Text>
+      <GUID>1500030068</GUID>
+      <Text>Albahan Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030069</GUID>
+      <Text>The offical banners for Albahan</Text>
+    </Text>
+    <Text>
+      <GUID>1500030070</GUID>
+      <Text>Albahan Banner</Text> 
+    </Text>
+    <Text>
+      <GUID>1500030071</GUID>
+      <Text>Official Kingdom of Sapin Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030072</GUID>
+      <Text>The official Kingdom of Sapin Banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030073</GUID>
+      <Text>Kingdom of Sapin Banner fish</Text>
+    </Text>
+    <Text>
+      <GUID>1500030074</GUID>
+      <Text>The Kingdom of Sapin banner with fishes</Text>
+    </Text>
+    <Text>
+      <GUID>1500030075</GUID>
+      <Text>Kingdom of Sapin Banner shield</Text>
+    </Text>
+    <Text>
+      <GUID>1500030076</GUID>
+      <Text>The Kingdom of Sapin banner with a shield</Text>
+    </Text>
+    <Text>
+      <GUID>1500030077</GUID>
+      <Text>The Kingdom of Sapin Banner steampunk</Text>
+    </Text>
+    <Text>
+      <GUID>1500030078</GUID>
+      <Text>A steampunk version of the Kingdom of Sapin banner</Text>
+    </Text>
+    <Text>
+      <GUID>1500030079</GUID>
+      <Text>The Official banner of Belfort</Text>
+    </Text>
+    <Text>
+      <GUID>1500030080</GUID>
+      <Text>The Official banner of Belfort</Text>
+    </Text>
+    <Text>
+      <GUID>1500030081</GUID>
+      <Text>The Official banner of Karlswache</Text>
+    </Text>
+    <Text>
+      <GUID>1500030082</GUID>
+      <Text>The Official banner for the island of Karlswache</Text>
+    </Text>
+    <Text>
+      <GUID>1500030083</GUID>
+      <Text>Principality of Guivre</Text>
+    </Text>
+    <Text>
+      <GUID>1500030084</GUID>
+      <Text>The Official banner for the Principality of Guivre</Text>
+    </Text>
+    <Text>
+      <GUID>1500030085</GUID>
+      <Text>Phanton Circus Brigade</Text>
+    </Text>
+    <Text>
+      <GUID>1500030086</GUID>
+      <Text>The Official banner for the Phanton Circus Brigade</Text>
+    </Text>
+    <Text>
+      <GUID>1500030087</GUID>
+      <Text>La Corona</Text>
+    </Text>
+    <Text>
+      <GUID>1500030088</GUID>
+      <Text>The Official banner for La Corona</Text>
+    </Text>
+    <Text>
+      <GUID>1500030089</GUID>
+      <Text>Eternal Sun Trading Company</Text>
+    </Text>
+    <Text>
+      <GUID>1500030090</GUID>
+      <Text>The Official banner for the Eternal Sun Trading Company</Text>
+    </Text>
+    <Text>
+      <GUID>1500030091</GUID>
+      <Text>Flame Squadron</Text>
+    </Text>
+    <Text>
+      <GUID>1500030092</GUID>
+      <Text>The Official banner for the Flame Squadron</Text>
+    </Text>
+    <Text>
+      <GUID>1500030093</GUID>
+      <Text>Union of Albion</Text>
+    </Text>
+    <Text>
+      <GUID>1500030094</GUID>
+      <Text>The Official banner for the Union of Albion</Text>
+    </Text>
+        </ModOp>
+    </ModOps>

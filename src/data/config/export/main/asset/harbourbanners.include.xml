@@ -1,0 +1,740 @@
+<!-- A special (temporary) place for the harbour banners -->
+<ModOps>
+    <!-- START ADD CONTRUCTION CATEGORY -->
+    <ModOp Type="addNextSibling" GUID="1500030000">
+        <Asset>
+        <Template>ConstructionCategory</Template>
+        <Values>
+            <Standard>
+            <GUID>1500030048</GUID>
+            <Name>Rantian Imperium Harbour Banners</Name>
+            <IconFilename>data/ui/icon_rantian_imperium_symbol_harbour.png</IconFilename>
+            </Standard>
+            <ConstructionCategory>
+            <BuildingList>
+                <Item>
+                    <Building>1500030050</Building>
+                </Item>
+                <Item>
+                    <Building>1500030052</Building>
+                </Item>
+                <Item>
+                    <Building>1500030054</Building>
+                </Item>
+                <Item>
+                    <Building>1500030056</Building>
+                </Item>
+                <Item>
+                    <Building>1500030058</Building>
+                </Item>
+                <Item>
+                    <Building>1500030060</Building>
+                </Item>
+                <Item>
+                    <Building>1500030062</Building>
+                </Item>
+                <Item>
+                    <Building>1500030064</Building>
+                </Item>
+                <Item>
+                    <Building>1500030066</Building>
+                </Item>
+                <Item>
+                    <Building>1500030068</Building>
+                </Item>
+                <Item>
+                    <Building>1500030070</Building>
+                </Item>
+                <Item>
+                    <Building>1500030071</Building>
+                </Item>
+                <Item>
+                    <Building>1500030073</Building>
+                </Item>
+                <Item>
+                    <Building>1500030075</Building>
+                </Item>
+                <Item>
+                    <Building>1500030077</Building>
+                </Item>
+                <Item>
+                    <Building>1500030079</Building>
+                </Item>
+                <Item>
+                    <Building>1500030081</Building>
+                </Item>
+                <Item>
+                    <Building>1500030083</Building>
+                </Item>
+                <Item>
+                    <Building>1500030085</Building>
+                </Item>
+                <Item>
+                    <Building>1500030087</Building>
+                </Item>
+                <Item>
+                    <Building>1500030089</Building>
+                </Item>
+                <Item>
+                    <Building>1500030091</Building>
+                </Item>
+                <Item>
+                    <Building>1500030093</Building>
+                </Item>
+            </BuildingList>
+            <CategoryDescription>1500030049</CategoryDescription>
+            </ConstructionCategory>
+            <Text>
+            <LocaText>
+                <English>
+                <Text>Rantian Imperium Harbour Banners</Text>
+                <Status>Exported</Status>
+                </English>
+            </LocaText>
+            <LineID>93456</LineID>
+            </Text>
+            <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+        </Values>
+        </Asset>
+    </ModOp>
+    <!-- END ADD CONSTRUCTION CATEGORY -->
+
+    <!-- START RANTIAN IMPERIUM BANNER ORIGINAL - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="103115">
+        <Asset>
+            <Template>HarborOrnament</Template>
+            <Values>
+                <Standard>
+                <GUID>1500030050</GUID>
+                <Name>rantian_imperium_harbour_logo_banner</Name>
+                <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
+                <InfoDescription>1500030051</InfoDescription>
+                </Standard>
+                <Building>
+                <BuildingCategoryName>11149</BuildingCategoryName>
+                <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
+                </Building>
+                <Blocking/>
+                <Mesh/>
+                <Object>
+                <Variations>
+                    <Item>
+                        <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_01.cfg</Filename>
+                    </Item>
+                </Variations>
+                </Object>
+                <AmbientMoodProvider/>
+                <Constructable/>
+                <Selection>
+                <OnSelection>
+                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                    <Values>
+                    <ActionList/>
+                    </Values>
+                </OnSelection>
+                </Selection>
+                <Text>
+                <LocaText>
+                    <English>
+                    <Text>Rantian Imperium Banner</Text>
+                    <Status>Exported</Status>
+                    </English>
+                </LocaText>
+                <LineID>48599</LineID>
+                </Text>
+                <Cost>
+                <Costs>
+                    <Item>
+                    <VectorElement>
+                    <InheritanceMapV2>
+                        <Entry>
+                        <TemplateName>OrnamentalBuilding</TemplateName>
+                        <Index>0</Index>
+                        </Entry>
+                    </InheritanceMapV2>
+                    </VectorElement>
+                    <Ingredient>1010017</Ingredient>
+                    <!--Money-->
+                    <Amount>150</Amount>
+                </Item>
+                </Costs>
+                </Cost>
+                <Attackable>
+                <AttackableType>HarbourBuilding</AttackableType>
+                </Attackable>
+                <Infolayer/>
+                <Maintenance/>
+                <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                <PlazzaSize>1</PlazzaSize>
+                <OrnamentUnit>2</OrnamentUnit>
+                <OrnamentDescription>1500030051</OrnamentDescription>
+                </Ornament>
+                <FeedbackController/>
+                <SoundEmitter>
+                <DestroySounds>
+                    <Item>
+                    <Sound>9818756</Sound>
+                    <!--wwe_sfx_aui_delete-->
+                    </Item>
+                </DestroySounds>
+                </SoundEmitter>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM BANNER ORIGINAL - HARBOUR VERSION-->
+
+    <!-- START RANTIAN IMPERIUM BANNER NAVAL - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030052</GUID>
+                    <Name>rantian_imperium_harbour_naval_banner</Name>
+                    <InfoDescription>1500030053</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030053</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM BANNER NAVAL - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM BANNER NAVAL - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030054</GUID>
+                    <Name>rantian_imperium_harbour_airforce_banner</Name>
+                    <InfoDescription>1500030055</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030055</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM BANNER NAVAL - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM BANNER STANDARD - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030056</GUID>
+                    <Name>rantian_imperium_harbour_standard_banner</Name>
+                    <InfoDescription>1500030057</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030057</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM BANNER STANDARD - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM LION BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030058</GUID>
+                    <Name>rantian_imperium_harbour_lion_banner</Name>
+                    <InfoDescription>1500030059</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030059</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM LION BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM REPUBLIC OF NEW ALBION MILITARY BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030060</GUID>
+                    <Name>rantian_imperium_harbour_rep_of_new_albion_military_banner</Name>
+                    <InfoDescription>1500030061</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_rep_of_new_albion_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030061</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM REPUBLIC OF NEW ALBION MILITARY BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM REPUBLIC OF NEW ALBION CIVILIAN BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030062</GUID>
+                    <Name>rantian_imperium_harbour_rep_of_new_albion_civilian_banner</Name>
+                    <InfoDescription>1500030063</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_rep_of_new_albion_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030063</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM REPUBLIC OF NEW ALBION CIVILIAN BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM NWCU CIVILIAN BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030064</GUID>
+                    <Name>rantian_imperium_harbour_nwcu_civilian_banner</Name>
+                    <InfoDescription>1500030065</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_nwcu_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030065</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM NWCU CIVILIAN BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM ZANDROS BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030066</GUID>
+                    <Name>rantian_imperium_harbour_zandros_banner</Name>
+                    <InfoDescription>1500030067</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_zandros_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030067</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM ZANDROS BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM ALBAHAN BANNER 01 - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030068</GUID>
+                    <Name>rantian_imperium_harbour_albahan_01_banner</Name>
+                    <InfoDescription>1500030069</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/albahan/rantium_banner_albahan_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030069</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM ALBAHAN BANNER 01 - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM ALBAHAN BANNER 02 - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030070</GUID>
+                    <Name>rantian_imperium_harbour_albahan_02_banner</Name>
+                    <InfoDescription>1500030069</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/albahan/rantium_banner_albahan_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030069</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM ALBAHAN BANNER 02 - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM KINGDOM OF SAPIN OFFICIAL BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030071</GUID>
+                    <Name>rantian_imperium_harbour_kingdom_of_sapin_official_banner</Name>
+                    <InfoDescription>1500030072</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/kingdom_of_sapin/rantium_banner_sapin_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030072</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM KINGDOM OF SAPIN OFFICIAL BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM KINGDOM OF SAPIN FISH BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030073</GUID>
+                    <Name>rantian_imperium_harbour_kingdom_of_sapin_fish_banner</Name>
+                    <InfoDescription>1500030074</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/kingdom_of_sapin/rantium_banner_sapin_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030074</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM KINGDOM OF SAPIN FISH BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM KINGDOM OF SAPIN SHIELD BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030075</GUID>
+                    <Name>rantian_imperium_harbour_kingdom_of_sapin_shield_banner</Name>
+                    <InfoDescription>1500030076</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/kingdom_of_sapin/rantium_banner_sapin_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030076</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM KINGDOM OF SAPIN SHIELD BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM KINGDOM OF SAPIN STEAMPUNK BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030077</GUID>
+                    <Name>rantian_imperium_harbour_kingdom_of_sapin_steampunk_banner</Name>
+                    <InfoDescription>1500030078</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/kingdom_of_sapin/rantium_banner_sapin_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030078</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM KINGDOM OF SAPIN STEAMPUNK BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM BELFORT OFFICIAL BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030079</GUID>
+                    <Name>rantian_imperium_harbour_belfort_official_banner</Name>
+                    <InfoDescription>1500030080</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/belfort/rantium_banner_belfort_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030081</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM BELFORT OFFICIAL BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM KARLSWACHE OFFICIAL BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030081</GUID>
+                    <Name>rantian_imperium_harbour_karlswache_official_banner</Name>
+                    <InfoDescription>1500030082</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/karlswache/rantium_banner_karlswache_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030082</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM KARLSWACHE OFFICIAL BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM PRINCIPALITY OF GUIVRE OFFICIAL BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030083</GUID>
+                    <Name>rantian_imperium_harbour_principality_of_guivre_official_banner</Name>
+                    <InfoDescription>1500030084</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/principality_of_guivre/rantium_banner_principality_of_guivre_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030084</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM PRINCIPALITY OF GUIVRE OFFICIAL BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM PHANTOM CIRCUS BRIGADE OFFICIAL BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030085</GUID>
+                    <Name>rantian_imperium_harbour_phantom_circus_brigade_official_banner</Name>
+                    <InfoDescription>1500030086</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/phantom_circus_brigade/rantium_banner_phantom_circus_brigade_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030086</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM PHANTOM CIRCUS BRIGADE OFFICIAL BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM LA CORONA OFFICIAL BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030087</GUID>
+                    <Name>rantian_imperium_harbour_la_corona_official_banner</Name>
+                    <InfoDescription>1500030088</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/la_corona/rantium_banner_lacorona_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030088</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM LA CORONA OFFICIAL BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM ETERNAL SUN TRADING CO OFFICIAL BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030089</GUID>
+                    <Name>rantian_imperium_harbour_eternal_sun_trading_co_official_banner</Name>
+                    <InfoDescription>1500030090</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/eternal_sun/rantium_banner_eternalsun_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030090</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM ETERNAL SUN TRADING CO OFFICIAL BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM FLAME SQUADRON OFFICIAL BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030091</GUID>
+                    <Name>rantian_imperium_harbour_flame_squadron_official_banner</Name>
+                    <InfoDescription>1500030092</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/flame_squadron/rantium_banner_flamesquadron_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030092</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM FLAME SQUADRON OFFICIAL BANNER - HARBOUR VERSION -->
+
+    <!-- START RANTIAN IMPERIUM UNION OF ALBION BANNER - HARBOUR VERSION -->
+    <ModOp Type="addNextSibling" GUID="1500030050">
+        <Asset>
+            <BaseAssetGUID>1500030050</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1500030093</GUID>
+                    <Name>rantian_imperium_harbour_union_of_albion_banner</Name>
+                    <InfoDescription>1500030094</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_rep_of_new_albion_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>1500030094</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END RANTIAN IMPERIUM UNION OF ALBION BANNER - HARBOUR VERSION -->
+</ModOps>

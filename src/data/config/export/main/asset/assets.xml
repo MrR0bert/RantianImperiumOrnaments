@@ -34,6 +34,9 @@
     <Item>
       <Building>1500030000</Building>
     </Item>
+    <Item>
+      <Building>1500030048</Building>
+    </Item>
   </ModOp>
   <!-- END ADD TO OLD WORLD BEAUTIFICATION MENU -->
 
@@ -41,6 +44,9 @@
   <ModOp Type="addNextSibling" GUID='500079' Path="/Values/ConstructionCategory/BuildingList/Item[Building='501695']">
     <Item>
       <Building>1500030000</Building>
+    </Item>
+    <Item>
+      <Building>1500030048</Building>
     </Item>
   </ModOp>
   <!-- END ADD TO NEW WORLD BEAUTIFICATION MENU -->
@@ -50,6 +56,9 @@
     <Item>
       <Building>1500030000</Building>
     </Item>
+    <Item>
+      <Building>1500030048</Building>
+    </Item>
   </ModOp>
   <!-- END ADD TO ENBESA TIER 1 MENU -->
 
@@ -57,6 +66,9 @@
   <ModOp Type="addNextSibling" GUID='1445627' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1445634']">
     <Item>
       <Building>1500030000</Building>
+    </Item>
+    <Item>
+      <Building>1500030048</Building>
     </Item>
   </ModOp>
   <!-- END ADD TO Asia City MENU -->
@@ -69,7 +81,7 @@
         <Standard>
           <GUID>1500030000</GUID>
           <Name>Rantium Empire Ornaments</Name>
-          <IconFilename>data/ui/icon_rantium_logo.png</IconFilename>
+          <IconFilename>data/ui/icon_rantian_imperium_symbol_standard.png</IconFilename>
         </Standard>
         <ConstructionCategory>
           <BuildingList>
@@ -3398,4 +3410,6 @@
     </Asset>
   </ModOp>
   <!-- END UNION OF ALBION -->
+   
+  <Include File="harbourbanners.include.xml" />
 </ModOps>
