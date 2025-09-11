@@ -1,4 +1,153 @@
 <!-- A special (temporary) place for the harbour banners -->
 <ModOps>
-    
+    <!-- START ADD CONTRUCTION CATEGORY -->
+    <ModOp Type="addNextSibling" GUID="1500030000">
+        <Asset>
+        <Template>ConstructionCategory</Template>
+        <Values>
+            <Standard>
+            <GUID>1500030048</GUID>
+            <Name>Rantian Imperium Harbour Banners</Name>
+            <IconFilename>data/ui/icon_rantian_imperium_symbol_harbour.png</IconFilename>
+            </Standard>
+            <ConstructionCategory>
+            <BuildingList>
+                <Item>
+                    <Building>2001000000</Building>
+                </Item>
+                <Item>
+                    <Building>2001000002</Building>
+                </Item>
+            </BuildingList>
+            <CategoryDescription>1500030049</CategoryDescription>
+            </ConstructionCategory>
+            <Text>
+            <LocaText>
+                <English>
+                <Text>Rantian Imperium Harbour Banners</Text>
+                <Status>Exported</Status>
+                </English>
+            </LocaText>
+            <LineID>93456</LineID>
+            </Text>
+            <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+        </Values>
+        </Asset>
+    </ModOp>
+    <!-- END ADD CONSTRUCTION CATEGORY -->
+
+    <!-- START HARBOUR TEST BANNER -->
+    <ModOp Type="addNextSibling" GUID="103115">
+        <Asset>
+            <Template>HarborOrnament</Template>
+            <Values>
+                <Standard>
+                <GUID>2001000000</GUID>
+                <Name>rantian_imperium_harbour_test_banner_01</Name>
+                <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
+                <InfoDescription>2001000001</InfoDescription>
+                </Standard>
+                <Building>
+                <BuildingCategoryName>11149</BuildingCategoryName>
+                <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
+                </Building>
+                <Blocking/>
+                <Mesh/>
+                <Object>
+                <Variations>
+                    <Item>
+                        <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_01.cfg</Filename>
+                    </Item>
+                </Variations>
+                </Object>
+                <AmbientMoodProvider/>
+                <Constructable/>
+                <Selection>
+                <OnSelection>
+                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                    <Values>
+                    <ActionList/>
+                    </Values>
+                </OnSelection>
+                </Selection>
+                <Text>
+                <LocaText>
+                    <English>
+                    <Text>Bleak Lamp</Text>
+                    <Status>Exported</Status>
+                    </English>
+                </LocaText>
+                <LineID>48599</LineID>
+                </Text>
+                <Cost>
+                <Costs>
+                    <Item>
+                    <VectorElement>
+                    <InheritanceMapV2>
+                        <Entry>
+                        <TemplateName>OrnamentalBuilding</TemplateName>
+                        <Index>0</Index>
+                        </Entry>
+                    </InheritanceMapV2>
+                    </VectorElement>
+                    <Ingredient>1010017</Ingredient>
+                    <!--Money-->
+                    <Amount>150</Amount>
+                </Item>
+                </Costs>
+                </Cost>
+                <Attackable>
+                <AttackableType>HarbourBuilding</AttackableType>
+                </Attackable>
+                <Infolayer/>
+                <Maintenance/>
+                <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Ornament>
+                <PlazzaSize>1</PlazzaSize>
+                <OrnamentUnit>2</OrnamentUnit>
+                <OrnamentDescription>2001000001</OrnamentDescription>
+                </Ornament>
+                <FeedbackController/>
+                <SoundEmitter>
+                <DestroySounds>
+                    <Item>
+                    <Sound>9818756</Sound>
+                    <!--wwe_sfx_aui_delete-->
+                    </Item>
+                </DestroySounds>
+                </SoundEmitter>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END HARBOUR TEST BANNER-->
+
+    <!-- START SECOND HARBOUR TEST BANNER -->
+    <ModOp Type="addNextSibling" GUID="2001000000">
+        <Asset>
+            <BaseAssetGUID>2001000000</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>2001000002</GUID>
+                    <Name>rantian_imperium_harbour_test_banner_02</Name>
+                    <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
+                    <InfoDescription>2001000003</InfoDescription>
+                </Standard>            
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Ornament>
+                    <OrnamentDescription>2001000003</OrnamentDescription>
+                </Ornament>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- END SECOND HARBOUR TEST BANNER-->
 </ModOps>

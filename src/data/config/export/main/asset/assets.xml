@@ -34,6 +34,9 @@
     <Item>
       <Building>1500030000</Building>
     </Item>
+    <Item>
+      <Building>1500030048</Building>
+    </Item>
   </ModOp>
   <!-- END ADD TO OLD WORLD BEAUTIFICATION MENU -->
 
@@ -41,6 +44,9 @@
   <ModOp Type="addNextSibling" GUID='500079' Path="/Values/ConstructionCategory/BuildingList/Item[Building='501695']">
     <Item>
       <Building>1500030000</Building>
+    </Item>
+    <Item>
+      <Building>1500030048</Building>
     </Item>
   </ModOp>
   <!-- END ADD TO NEW WORLD BEAUTIFICATION MENU -->
@@ -50,6 +56,9 @@
     <Item>
       <Building>1500030000</Building>
     </Item>
+    <Item>
+      <Building>1500030048</Building>
+    </Item>
   </ModOp>
   <!-- END ADD TO ENBESA TIER 1 MENU -->
 
@@ -57,6 +66,9 @@
   <ModOp Type="addNextSibling" GUID='1445627' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1445634']">
     <Item>
       <Building>1500030000</Building>
+    </Item>
+    <Item>
+      <Building>1500030048</Building>
     </Item>
   </ModOp>
   <!-- END ADD TO Asia City MENU -->
@@ -69,7 +81,7 @@
         <Standard>
           <GUID>1500030000</GUID>
           <Name>Rantium Empire Ornaments</Name>
-          <IconFilename>data/ui/icon_rantium_logo.png</IconFilename>
+          <IconFilename>data/ui/icon_rantian_imperium_symbol_standard.png</IconFilename>
         </Standard>
         <ConstructionCategory>
           <BuildingList>
@@ -141,9 +153,6 @@
             </Item>
             <Item>
               <Building>1500030046</Building>
-            </Item>
-            <Item>
-              <Building>2001000000</Building>
             </Item>
           </BuildingList>
           <CategoryDescription>1500030001</CategoryDescription>
@@ -3401,168 +3410,6 @@
     </Asset>
   </ModOp>
   <!-- END UNION OF ALBION -->
-
-  <!-- START HARBOUR TEST BANNER -->
-  <ModOp Type="addNextSibling" GUID="103115">
-    <Asset>
-      <Template>HarborOrnament</Template>
-      <Values>
-        <Standard>
-          <GUID>2001000000</GUID>
-          <Name>rantian_imperium_harbour_test_banner_01</Name>
-          <IconFilename>data/ui/icon_flag_banner.png</IconFilename>
-          <InfoDescription>2001000001</InfoDescription>
-        </Standard>
-        <Building>
-          <BuildingCategoryName>11149</BuildingCategoryName>
-          <AssociatedRegions>Moderate;Colony01;Africa;Mod2</AssociatedRegions>
-        </Building>
-        <Blocking/>
-        <Mesh/>
-        <Object>
-          <Variations>
-            <Item>
-              <Filename>data/graphics/buildings/ornamental/rantium_banner_flag_large_01.cfg</Filename>
-            </Item>
-          </Variations>
-        </Object>
-        <AmbientMoodProvider/>
-        <Constructable/>
-        <Selection>
-          <OnSelection>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-            <Values>
-              <ActionList/>
-            </Values>
-          </OnSelection>
-        </Selection>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Bleak Lamp</Text>
-              <Status>Exported</Status>
-            </English>
-          </LocaText>
-          <LineID>48599</LineID>
-        </Text>
-        <Cost>
-          <Costs>
-            <Item>
-            <VectorElement>
-              <InheritanceMapV2>
-                <Entry>
-                  <TemplateName>OrnamentalBuilding</TemplateName>
-                  <Index>0</Index>
-                </Entry>
-              </InheritanceMapV2>
-            </VectorElement>
-            <Ingredient>1010017</Ingredient>
-            <!--Money-->
-            <Amount>15</Amount>
-          </Item>
-          <Item>
-            <VectorElement>
-              <InheritedIndex>1</InheritedIndex>
-              <InheritanceMapV2>
-                <Entry>
-                  <TemplateName>OrnamentalBuilding</TemplateName>
-                  <Index>1</Index>
-                </Entry>
-                <Entry>
-                  <TemplateName>HarborOrnament</TemplateName>
-                  <Index>1</Index>
-                </Entry>
-              </InheritanceMapV2>
-            </VectorElement>
-          </Item>
-          <Item>
-            <VectorElement>
-              <InheritedIndex>2</InheritedIndex>
-              <InheritanceMapV2>
-                <Entry>
-                  <TemplateName>OrnamentalBuilding</TemplateName>
-                  <Index>2</Index>
-                </Entry>
-                <Entry>
-                  <TemplateName>HarborOrnament</TemplateName>
-                  <Index>2</Index>
-                </Entry>
-              </InheritanceMapV2>
-            </VectorElement>
-          </Item>
-          <Item>
-            <VectorElement>
-              <InheritedIndex>3</InheritedIndex>
-              <InheritanceMapV2>
-                <Entry>
-                  <TemplateName>OrnamentalBuilding</TemplateName>
-                  <Index>3</Index>
-                </Entry>
-                <Entry>
-                  <TemplateName>HarborOrnament</TemplateName>
-                  <Index>3</Index>
-                </Entry>
-              </InheritanceMapV2>
-            </VectorElement>
-          </Item>
-          <Item>
-            <VectorElement>
-              <InheritedIndex>4</InheritedIndex>
-              <InheritanceMapV2>
-                <Entry>
-                  <TemplateName>OrnamentalBuilding</TemplateName>
-                  <Index>4</Index>
-                </Entry>
-                <Entry>
-                  <TemplateName>HarborOrnament</TemplateName>
-                  <Index>4</Index>
-                </Entry>
-              </InheritanceMapV2>
-            </VectorElement>
-          </Item>
-          <Item>
-            <VectorElement>
-              <InheritedIndex>5</InheritedIndex>
-              <InheritanceMapV2>
-                <Entry>
-                  <TemplateName>OrnamentalBuilding</TemplateName>
-                  <Index>5</Index>
-                </Entry>
-                <Entry>
-                  <TemplateName>HarborOrnament</TemplateName>
-                  <Index>5</Index>
-                </Entry>
-              </InheritanceMapV2>
-            </VectorElement>
-          </Item>
-          </Costs>
-        </Cost>
-        <Attackable>
-          <AttackableType>HarbourBuilding</AttackableType>
-        </Attackable>
-        <Infolayer/>
-        <Maintenance/>
-        <Locked>
-          <DefaultLockedState>0</DefaultLockedState>
-        </Locked>
-        <Ornament>
-          <PlazzaSize>1</PlazzaSize>
-          <OrnamentUnit>2</OrnamentUnit>
-          <OrnamentDescription>2001000001</OrnamentDescription>
-        </Ornament>
-        <FeedbackController/>
-        <SoundEmitter>
-          <DestroySounds>
-            <Item>
-              <Sound>9818756</Sound>
-              <!--wwe_sfx_aui_delete-->
-            </Item>
-          </DestroySounds>
-        </SoundEmitter>
-      </Values>
-    </Asset>
-  </ModOp>
-  <!-- END HARBOUR TEST BANNER-->
    
   <Include File="harbourbanners.include.xml" />
 </ModOps>
