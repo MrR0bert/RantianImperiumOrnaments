@@ -162,7 +162,7 @@
                 </Costs>
                 </Cost>
                 <Attackable>
-                <AttackableType>HarbourBuilding</AttackableType>
+                    <AttackableType>HarbourBuilding</AttackableType>
                 </Attackable>
                 <Infolayer/>
                 <Maintenance/>
