@@ -154,6 +154,9 @@
             <Item>
               <Building>1500030046</Building>
             </Item>
+            <Item>
+              <Building>2001000000</Building>
+            </Item>
           </BuildingList>
           <CategoryDescription>1500030001</CategoryDescription>
         </ConstructionCategory>
@@ -3412,4 +3415,5 @@
   <!-- END UNION OF ALBION -->
    
   <Include File="harbourbanners.include.xml" />
+  <Include File="testbanners.include.xml" />
 </ModOps>
