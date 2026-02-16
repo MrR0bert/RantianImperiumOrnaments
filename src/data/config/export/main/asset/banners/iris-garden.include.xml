@@ -1,0 +1,354 @@
+<ModOps>
+    <Group>
+        <!-- START ADD QUEENDOM OF SAPIN STATE BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030023</GUID>
+                        <Name>queendom_of_sapin_state_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/queendom_of_sapin_state_banner_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/queendom_of_sapin_state_banner_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030024</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD ISLE OF REMORAY BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030025</GUID>
+                        <Name>isle_of_remoray_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_remoray_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_remoray_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030026</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD ISLE OF POLIGNY BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030027</GUID>
+                        <Name>isle_of_poligny_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_poligny_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_poligny_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030028</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD ISLE OF MORTEAU BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030029</GUID>
+                        <Name>isle_of_morteau_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_morteau_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_morteau_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030030</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START PRINCIPALITY OF GUIVE BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030036</GUID>
+                        <Name>principality_of_guive_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/principality_of_guivre_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/principality_of_guivre_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030037</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD ISLE OF VESONTIO BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030094</GUID>
+                        <Name>isle_of_vesontio_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_vesontio_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_vesontio_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030095</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD ISLE OF BELFORT BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030096</GUID>
+                        <Name>isle_of_belfort_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_belfort_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_belfort_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030097</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD ISLE OF CIRCÉE BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030098</GUID>
+                        <Name>isle_of_circee_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_circee_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_circee_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030099</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD ISLE OF LORELEI BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030100</GUID>
+                        <Name>isle_of_lorelei_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_lorelei_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_lorelei_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030101</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD IRIS ORTHODOXY BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030102</GUID>
+                        <Name>iris_orthodoxy_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/iris_orthodoxy_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/iris_orthodoxy_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030103</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD IRILYS ORDER BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030104</GUID>
+                        <Name>irilys_order_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/irilys_order_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/irilys_order_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030105</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD COMPAGNIE ROYALE AÉROPOSTALE -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030106</GUID>
+                        <Name>compagnie_royale_aeropostale_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/compagnie_royale_aeropostale_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/compagnie_royale_aeropostale_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030107</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD ISLE OF CROWN FALL BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030108</GUID>
+                        <Name>isle_of_crown_fall_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_crown_fall_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/iris_garden/isle_of_crown_fall_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030109</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+    </Group>
+</ModOps>

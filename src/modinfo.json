@@ -1,6 +1,8 @@
 {
-    "Version": "1.4.0",
     "ModID": "mrrobert_rantian_imperium_ornaments",
+    "Version": "2.0.0",
+    "Anno": 7,
+    "CreatorName": "MrR0b3rt",
     "Category": {
       "Chinese": null,
       "English": "Ornaments",
@@ -46,6 +48,5 @@
         "DLC": "OldTown",
         "Dependant": "partly"
       }
-    ],
-    "CreatorName": "MrR0b3rt"
+    ]
   }

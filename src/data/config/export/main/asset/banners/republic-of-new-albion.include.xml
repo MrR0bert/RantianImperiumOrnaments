@@ -1,0 +1,85 @@
+<ModOps>
+    <Group>
+        <!-- START ADD REPUBLIC OF NEW ALBION MILITARY BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030012</GUID>
+                        <Name>republic_of_new_albion_military_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/new_albion/new_albion_military_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/new_albion/new_albion_military_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030013</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD REPUBLIC OF NEW ALBION CIVILIAN BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030014</GUID>
+                        <Name>republic_of_new_albion_civilian_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/new_albion/new_albion_civilian_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/new_albion/new_albion_civilian_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030015</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START UNION OF ALBION -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030046</GUID>
+                        <Name>union_of_albion_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/new_albion/new_albion_union_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/new_albion/new_albion_union_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030047</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+    </Group>
+</ModOps>

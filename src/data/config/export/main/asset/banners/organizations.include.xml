@@ -1,0 +1,192 @@
+<ModOps>
+    <Group>
+        <!-- START REPUBLIC OF NWCU BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030016</GUID>
+                        <Name>nwcu_civilian_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/nwcu_civilian_banner_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/nwcu_civilian_banner_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030017</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START REPUBLIC OF ZANDROS BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030018</GUID>
+                        <Name>zandros_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/zandros_banner_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/zandros_banner_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030019</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START BELFORT BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030031</GUID>
+                        <Name>belfort_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/belfort_banner_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/belfort_banner_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030032</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START KARLSWACHE BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030034</GUID>
+                        <Name>karlswache_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/karlswache_banner_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/karlswache_banner_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030035</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+        
+        <!-- START PHANTOM CIRCUS BRIGADE BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030038</GUID>
+                        <Name>phantom_circus_brigade_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/phantom_circus_brigade_banner_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/phantom_circus_brigade_banner_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030039</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+        
+        <!-- START LA CORONA BANNER -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030040</GUID>
+                        <Name>la_corona_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/la_corona_banner_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/la_corona_banner_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030041</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START FLAME SQUADRON -->
+        <ModOp Type="addNextSibling" GUID="1500030002">
+            <Asset>
+                <BaseAssetGUID>1500030002</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1500030044</GUID>
+                        <Name>flame_squadron_banner</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_flag_banner.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/flame_squadron_banner_1x1_01.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/mrr0b3rt/graphics/buildings/ornamental/banners/organizations/flame_squadron_banner_1x1_02.cfg</Filename>
+                            </Item>
+                        </Variations>
+                    </Object>
+                    <Ornament>
+                        <OrnamentDescription>1500030045</OrnamentDescription>
+                    </Ornament>
+                </Values>
+            </Asset>
+        </ModOp>        
+    </Group>
+</ModOps>

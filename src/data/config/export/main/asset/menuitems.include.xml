@@ -1,0 +1,352 @@
+<ModOps>
+    <!-- Main Menu Assets -->
+    <Group>
+        <ModOp Type="addNextSibling" GUID="500070">
+            <Asset>
+                <Template>ConstructionCategory</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1500031000</GUID>
+                        <Name>Main Rantian Imperium Ornaments</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_rantian_imperium_category.png</IconFilename>
+                    </Standard>
+                    <ConstructionCategory>
+                        <BuildingList>
+                            <Item>
+                                <Building>1500030000</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500031002</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500031004</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500031006</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500031008</Building>
+                            </Item>
+                        </BuildingList>
+                    </ConstructionCategory>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Rantian Imperium Ornaments</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>60351</LineID>
+                    </Text>
+                    <Locked />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- Add the main construction category to both beautification tabs in the Old World & Cape Trelawny -->
+        <ModOp Type="addNextSibling" GUID='25000035' Path="Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsSource/Categories/Item[Category=500069]">
+            <Item>
+                <Category>1500031000</Category>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID='25000035'
+            Path="Values/ConstructionMenu/RegionMenu/Moderate/OrnamentsMode/OrnamentsCategory/Categories/Item[Category=500059]">
+            <Item>
+                <Category>1500031000</Category>
+            </Item>
+        </ModOp>
+
+        <!-- Add the main construction category to both beautification tabs in the New World -->
+        <ModOp Type="addNextSibling" GUID='25000035' Path="Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsSource/Categories/Item[Category=500079]">
+            <Item>
+                <Category>1500031000</Category>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID='25000035' Path="Values/ConstructionMenu/RegionMenu/Colony01/OrnamentsMode/OrnamentsCategory/Categories/Item[Category=500053]">
+            <Item>
+                <Category>1500031000</Category>
+            </Item>
+        </ModOp>
+
+        <!-- Add the main construction category to both beautification tabs in the Arctic, if DLC exists -->
+        <Group Condition="@160001">    
+            <ModOp Type="addNextSibling" GUID='25000035' Path="Values/ConstructionMenu/RegionMenu/Arctic/CategoryMode/Tier/Categories/Item[Category=10272]">
+                <Item>
+                    <Category>1500031000</Category>
+                </Item>
+            </ModOp>
+            <ModOp Type="addNextSibling" GUID='25000035' Path="Values/ConstructionMenu/RegionMenu/Arctic/CategoryMode/BuildingCategory/Categories/Item[Category=10272]">
+                <Item>
+                    <Category>1500031000</Category>
+                </Item>
+            </ModOp>
+        </Group>
+
+        <!-- Add the main construction category to both beautification tabs in the Enbesa, if DLC exists -->
+        <Group Condition="@114327">
+            <ModOp Type="addNextSibling" GUID='25000035' Path="Values/ConstructionMenu/RegionMenu/Africa/CategoryMode/Tier/Categories/Item[Category=10245]">
+                <Item>
+                    <Category>1500031000</Category>
+                </Item>
+            </ModOp>
+            <ModOp Type="addNextSibling" GUID='25000035' Path="Values/ConstructionMenu/RegionMenu/Africa/CategoryMode/BuildingCategory/Categories/Item[Category=10245]">
+                <Item>
+                    <Category>1500031000</Category>
+                </Item>
+            </ModOp>
+        </Group>
+    </Group>
+
+    <!-- Sub Construction Categories -->
+    <Group>
+        <!-- START ADD CATEGORY: RANTIAN IMPERIUM BANNERS -->
+        <ModOp Type="addNextSibling" GUID="501485">
+            <Asset>
+                <Template>ConstructionCategory</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1500030000</GUID>
+                        <Name>Rantian Imperium Banners</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_rantian_imperium.png</IconFilename>
+                    </Standard>
+                    <ConstructionCategory>
+                        <CategoryDescription>1500030001</CategoryDescription>
+                        <BuildingList>
+                            <Item>
+                                <Building>1500030002</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030004</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030006</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030008</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030010</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030042</Building>
+                            </Item>
+                        </BuildingList>
+                    </ConstructionCategory>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Rantian Imperium Banners</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>93456</LineID>
+                    </Text>
+                    <Locked>
+                        <DefaultLockedState>0</DefaultLockedState>
+                    </Locked>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD CATEGORY: ORGANIZATION BANNERS -->
+        <ModOp Type="addNextSibling" GUID="501485">
+            <Asset>
+                <Template>ConstructionCategory</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1500031002</GUID>
+                        <Name>Organization Banners</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_nwcu_organizations.png</IconFilename>
+                    </Standard>
+                    <ConstructionCategory>
+                        <CategoryDescription>1500031003</CategoryDescription>
+                        <BuildingList>
+                            <Item>
+                                <Building>1500030016</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030018</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030031</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030034</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030038</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030040</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030044</Building>
+                            </Item>
+                        </BuildingList>
+                    </ConstructionCategory>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Rantian Imperium Banners</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>93456</LineID>
+                    </Text>
+                    <Locked>
+                        <DefaultLockedState>0</DefaultLockedState>
+                    </Locked>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD CATEGORY: IRIS GARDEN BANNERS -->
+        <ModOp Type="addNextSibling" GUID="501485">
+            <Asset>
+                <Template>ConstructionCategory</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1500031004</GUID>
+                        <Name>Iris Garden Banners</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_category_iris_garden_banners.png</IconFilename>
+                    </Standard>
+                    <ConstructionCategory>
+                        <CategoryDescription>1500031005</CategoryDescription>
+                        <BuildingList>
+                            <Item>
+                                <Building>1500030023</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030025</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030027</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030029</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030094</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030096</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030036</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030098</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030100</Building>
+                            </Item>
+
+                            <Item>
+                                <Building>1500030102</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030104</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030106</Building>
+                            </Item>
+
+                            <Item>
+                                <Building>1500030108</Building>
+                            </Item>
+                        </BuildingList>
+                    </ConstructionCategory>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Iris Garden Banners</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>93456</LineID>
+                    </Text>
+                    <Locked>
+                        <DefaultLockedState>0</DefaultLockedState>
+                    </Locked>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD CATEGORY: REPUBLIC OF NEW ALBION BANNERS -->
+        <ModOp Type="addNextSibling" GUID="501485">
+            <Asset>
+                <Template>ConstructionCategory</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1500031006</GUID>
+                        <Name>Republic of New Albion Banners</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_republic_of_new_albion.png</IconFilename>
+                    </Standard>
+                    <ConstructionCategory>
+                        <CategoryDescription>1500031007</CategoryDescription>
+                        <BuildingList>
+                            <Item>
+                                <Building>1500030012</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030014</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030046</Building>
+                            </Item>
+                        </BuildingList>
+                    </ConstructionCategory>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Republic of New Albion Banners</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>93456</LineID>
+                    </Text>
+                    <Locked>
+                        <DefaultLockedState>0</DefaultLockedState>
+                    </Locked>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- START ADD CATEGORY: ALBAHAN BANNERS -->
+        <ModOp Type="addNextSibling" GUID="501485">
+            <Asset>
+                <Template>ConstructionCategory</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1500031008</GUID>
+                        <Name>Albahan Banners</Name>
+                        <IconFilename>data/mrr0b3rt/ui/icons/icon_albahan.png</IconFilename>
+                    </Standard>
+                    <ConstructionCategory>
+                        <CategoryDescription>1500031009</CategoryDescription>
+                        <BuildingList>
+                            <Item>
+                                <Building>1500030020</Building>
+                            </Item>
+                            <Item>
+                                <Building>1500030022</Building>
+                            </Item>
+                        </BuildingList>
+                    </ConstructionCategory>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Albahan Banners</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>93456</LineID>
+                    </Text>
+                    <Locked>
+                        <DefaultLockedState>0</DefaultLockedState>
+                    </Locked>
+                </Values>
+            </Asset>
+        </ModOp>
+    </Group>
+</ModOps>

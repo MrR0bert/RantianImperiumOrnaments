@@ -1,6 +1,23 @@
-    <ModOps>
-        <ModOp Type="add" Path="/TextExport/Texts">
-                <Text>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Newspaper texts -->
+    <Text>
+      <GUID>1500031012</GUID>
+      <Text>HAPPY ANNOVERSAY RANTIUS!</Text>
+    </Text>
+    
+    <Text>
+      <GUID>1500031013</GUID>
+      <Text>We can't imagine how it already has been 2 years since it all began...</Text>
+    </Text>
+
+    <!-- Menu Items -->
+    <Text>
+      <GUID>1500031000</GUID>
+      <Text>Banners</Text>
+    </Text>
+
+    <Text>
       <GUID>1500030000</GUID>
       <Text>Rantian Imperium Ornaments</Text>
     </Text>
@@ -8,6 +25,44 @@
       <GUID>1500030001</GUID>
       <Text>Collection of Rantian Ornaments</Text>
     </Text>
+
+    <Text>
+      <GUID>1500031002</GUID>
+      <Text>Organization Banners</Text>
+    </Text>
+    <Text>
+      <GUID>1500031003</GUID>
+      <Text>TODO: Description of Organization Banners</Text>
+    </Text>
+
+    <Text>
+      <GUID>1500031004</GUID>
+      <Text>Iris Garden Banners</Text>
+    </Text>
+    <Text>
+      <GUID>1500031005</GUID>
+      <Text>The Iris Garden, home of an ancient empire, remains a land full of wonders and mysteries. The various nations born from this far away land remains the object of various legends and speculations.</Text>
+    </Text>
+
+    <Text>
+      <GUID>1500031006</GUID>
+      <Text>Republic of New Albion Banners</Text>
+    </Text>
+    <Text>
+      <GUID>1500031007</GUID>
+      <Text>TODO: Description of New Albion Banners</Text>
+    </Text>
+
+    <Text>
+      <GUID>1500031008</GUID>
+      <Text>Albahan Banners</Text>
+    </Text>
+    <Text>
+      <GUID>1500031009</GUID>
+      <Text>TODO: Description of Albahan Banners</Text>
+    </Text>
+
+    <!-- Banner descriptions -->
     <Text>
       <GUID>1500030002</GUID>
       <Text>Rantian Logo Banner</Text>
@@ -82,7 +137,7 @@
     </Text>
     <Text>
       <GUID>1500030020</GUID>
-      <Text>Albahan Banner</Text>
+      <Text>Albahan Banner 1</Text>
     </Text>
     <Text>
       <GUID>1500030021</GUID>
@@ -90,39 +145,39 @@
     </Text>
     <Text>
       <GUID>1500030022</GUID>
-      <Text>Albahan Banner</Text>
+      <Text>Albahan Banner 2</Text>
     </Text>
     <Text>
       <GUID>1500030023</GUID>
-      <Text>Official Kingdom of Sapin Banner</Text>
+      <Text>Queendom of Sapin state banner</Text>
     </Text>
     <Text>
       <GUID>1500030024</GUID>
-      <Text>The official Kingdom of Sapin Banner</Text>
+      <Text>The main powerhouse of the Iris Garden and self-proclaimed successor state of the ancient Clotildean Empire. The Queendom of Sapin is a land full of peaceful conflicts and harmonious contrasts.</Text>
     </Text>
     <Text>
       <GUID>1500030025</GUID>
-      <Text>Kingdom of Sapin Banner fish</Text>
+      <Text>Isle of Remoray banner</Text>
     </Text>
     <Text>
       <GUID>1500030026</GUID>
-      <Text>The Kingdom of Sapin banner with fishes</Text>
+      <Text>The verdant land, blessed by the Mother Goddess herself, acted as the breadbasket for the Queendom and the Garden.</Text>
     </Text>
     <Text>
       <GUID>1500030027</GUID>
-      <Text>Kingdom of Sapin Banner shield</Text>
+      <Text>Isle of Poligny</Text>
     </Text>
     <Text>
       <GUID>1500030028</GUID>
-      <Text>The Kingdom of Sapin banner with a shield</Text>
+      <Text>The Voice of the Queendom's diplomacy. The Fist of the Royal military's might. The Face of it's finacial and artistic accomplishment.</Text>
     </Text>
     <Text>
       <GUID>1500030029</GUID>
-      <Text>The Kingdom of Sapin Banner steampunk</Text>
+      <Text>Isle of Morteau</Text>
     </Text>
     <Text>
       <GUID>1500030030</GUID>
-      <Text>A steampunk version of the Kingdom of Sapin banner</Text>
+      <Text>The beating heart of the Queendom's almighty industry. Anything the Mother Goddess cannot provide the Sons of the Mountain will.</Text>
     </Text>
     <Text>
       <GUID>1500030031</GUID>
@@ -146,11 +201,11 @@
     </Text>
     <Text>
       <GUID>1500030036</GUID>
-      <Text>Principality of Guivre</Text>
+      <Text>Principality of Guivre      </Text>
     </Text>
     <Text>
       <GUID>1500030037</GUID>
-      <Text>The Official banner for the Principality of Guivre</Text>
+      <Text>A country as elusive as it's matriarchal rulers. The lands remains as mysterious as it's inhabitants. Beware of what you seek in here for IT can consume you. </Text>
     </Text>
     <Text>
       <GUID>1500030038</GUID>
@@ -282,7 +337,7 @@
     </Text>
     <Text>
       <GUID>1500030070</GUID>
-      <Text>Albahan Banner</Text> 
+      <Text>Albahan Banner</Text>
     </Text>
     <Text>
       <GUID>1500030071</GUID>
@@ -376,9 +431,77 @@
       <GUID>1500030093</GUID>
       <Text>Union of Albion</Text>
     </Text>
+
     <Text>
       <GUID>1500030094</GUID>
-      <Text>The Official banner for the Union of Albion</Text>
+      <Text>Isle of Vesontio</Text>
     </Text>
-        </ModOp>
-    </ModOps>
+    <Text>
+      <GUID>1500030095</GUID>
+      <Text>The Central Piece of the Iris Garden. The Brirthplace of the Queendom of Sapin. The Beating Heart of a Living Nation.</Text>
+    </Text>
+
+    <Text>
+      <GUID>1500030096</GUID>
+      <Text>Isle of Belfort</Text>
+    </Text>
+    <Text>
+      <GUID>1500030097</GUID>
+      <Text>An island small in size. But big in it's achievements and Legacy.</Text>
+    </Text>
+
+    <Text>
+      <GUID>1500030098</GUID>
+      <Text>Isle of Circée</Text>
+    </Text>
+    <Text>
+      <GUID>1500030099</GUID>
+      <Text>The ancient home of the Matriarchy nestled deep into a grim sea of trees. A veil of mystery keeps away those who failed to see the early signs.</Text>
+    </Text>
+
+    <Text>
+      <GUID>1500030100</GUID>
+      <Text>Isle of Lorelei</Text>
+    </Text>
+    <Text>
+      <GUID>1500030101</GUID>
+      <Text>This land may not be as grandiose as it's sister. But it remain far more traitorous to those who failed to keep their guard up.</Text>
+    </Text>
+
+    <Text>
+      <GUID>1500030102</GUID>
+      <Text>Iris Orthodoxy</Text>
+    </Text>
+    <Text>
+      <GUID>1500030103</GUID>
+      <Text>The main and exalted religion of the Queendom of Sapin and the Iris Garden. It's Childrens following the path laid down by the Mother Goddess. </Text>
+    </Text>
+
+    <Text>
+      <GUID>1500030104</GUID>
+      <Text>Irilys Order</Text>
+    </Text>
+    <Text>
+      <GUID>1500030105</GUID>
+      <Text>The blade and shield of the Orthodoxy. Their unravelled faith is their shield and their righteous fury is their sword. </Text>
+    </Text>
+
+    <Text>
+      <GUID>1500030106</GUID>
+      <Text>Compagnie Royale Aéropostale</Text>
+    </Text>
+    <Text>
+      <GUID>1500030107</GUID>
+      <Text>When others started to mechanised their ancient ships, the company already took it's first fly. They pioneered the 3rd Dimension of transportation and they intend to profit from this innovation. </Text>
+    </Text>
+
+    <Text>
+      <GUID>1500030108</GUID>
+      <Text>Isle of Crown Fall</Text>
+    </Text>
+    <Text>
+      <GUID>1500030109</GUID>
+      <Text>It was once the promise of a grandiose legacy for the one who remained in the shadow of a Great Legacy. Now it remained as a Fake disguised as a Consolation Prize.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
